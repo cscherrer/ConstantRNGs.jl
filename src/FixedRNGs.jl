@@ -22,6 +22,4 @@ for T in [Float16, Float32, Float64]
     end
 end
 
-
-
 end
