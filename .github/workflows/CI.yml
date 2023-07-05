@@ -62,6 +62,6 @@ jobs:
       - run: |
           julia --project=docs -e '
             using Documenter: DocMeta, doctest
-            using FixedRNGs
-            DocMeta.setdocmeta!(FixedRNGs, :DocTestSetup, :(using FixedRNGs); recursive=true)
-            doctest(FixedRNGs)'
+            using ConstantRNGs
+            DocMeta.setdocmeta!(ConstantRNGs, :DocTestSetup, :(using ConstantRNGs); recursive=true)
+            doctest(ConstantRNGs)'

@@ -1,16 +1,16 @@
-using FixedRNGs
+using ConstantRNGs
 using Documenter
 
-DocMeta.setdocmeta!(FixedRNGs, :DocTestSetup, :(using FixedRNGs); recursive=true)
+DocMeta.setdocmeta!(ConstantRNGs, :DocTestSetup, :(using ConstantRNGs); recursive=true)
 
 makedocs(;
-    modules=[FixedRNGs],
+    modules=[ConstantRNGs],
     authors="Chad Scherrer <chad.scherrer@gmail.com> and contributors",
-    repo="https://github.com/cscherrer/FixedRNGs.jl/blob/{commit}{path}#{line}",
-    sitename="FixedRNGs.jl",
+    repo="https://github.com/cscherrer/ConstantRNGs.jl/blob/{commit}{path}#{line}",
+    sitename="ConstantRNGs.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://cscherrer.github.io/FixedRNGs.jl",
+        canonical="https://cscherrer.github.io/ConstantRNGs.jl",
         edit_link="main",
         assets=String[],
     ),
@@ -20,6 +20,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/cscherrer/FixedRNGs.jl",
+    repo="github.com/cscherrer/ConstantRNGs.jl",
     devbranch="main",
 )

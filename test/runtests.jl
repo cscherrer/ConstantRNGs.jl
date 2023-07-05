@@ -1,6 +1,6 @@
-using FixedRNGs
+using ConstantRNGs
 using Test
 
-@testset "FixedRNGs.jl" begin
+@testset "ConstantRNGs.jl" begin
     # Write your tests here.
 end

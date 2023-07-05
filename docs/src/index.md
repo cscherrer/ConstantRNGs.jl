@@ -1,14 +1,14 @@
 ```@meta
-CurrentModule = FixedRNGs
+CurrentModule = ConstantRNGs
 ```
 
-# FixedRNGs
+# ConstantRNGs
 
-Documentation for [FixedRNGs](https://github.com/cscherrer/FixedRNGs.jl).
+Documentation for [ConstantRNGs](https://github.com/cscherrer/ConstantRNGs.jl).
 
 ```@index
 ```
 
 ```@autodocs
-Modules = [FixedRNGs]
+Modules = [ConstantRNGs]
 ```

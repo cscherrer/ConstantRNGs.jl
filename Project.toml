@@ -1,4 +1,4 @@
-name = "FixedRNGs"
+name = "ConstantRNGs"
 uuid = "aa9b60e7-6b1c-4c29-a6e5-e43521412437"
 authors = ["Chad Scherrer <chad.scherrer@gmail.com> and contributors"]
 version = "0.0.1"
