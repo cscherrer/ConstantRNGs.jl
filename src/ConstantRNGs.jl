@@ -5,6 +5,8 @@ using Random
 export ConstantRNG
 struct ConstantRNG <: AbstractRNG end
 
+Base.rand(::ConstantRNG, ::Type{Bool}) = true
+
 Base.rand(::ConstantRNG) = one(Float64) / 2
 Random.randn(::ConstantRNG) = zero(Float64)
 Random.randexp(::ConstantRNG) = one(Float64)
