@@ -22,5 +22,6 @@ julia> randexp(ConstantRNG())
 ```
 
 
-As always, there's a relevant [XKCD](https://xkcd.com/221/)
+As always, there's a relevant [XKCD](https://xkcd.com/221/):
+
 ![](https://imgs.xkcd.com/comics/random_number.png)
